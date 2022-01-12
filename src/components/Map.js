@@ -1,9 +1,5 @@
-import React, { useEffect, useState } from "react";
-import ReactMapGL, {
-    GeolocateControl,
-    Marker,
-    NavigationControl,
-  } from "react-map-gl";
+import React, { useState } from 'react';
+import ReactMapGL, { GeolocateControl } from "react-map-gl";
 
 function Map() {
   // Set up Mapbox credentials and map
@@ -19,7 +15,7 @@ function Map() {
 
   const geolocateControlStyle = {
     right: 10,
-    top: 10
+    top: 10,
   };
 
   return (
@@ -28,9 +24,9 @@ function Map() {
       mapStyle="mapbox://styles/snowypigeon/cknzujve10eb517l37gtvlynl/draft" // insert choice of map style here from Mapbox Studio
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
     >
-        <GeolocateControl
+      <GeolocateControl
         style={geolocateControlStyle}
-        positionOptions={{enableHighAccuracy: true}}
+        positionOptions={{ enableHighAccuracy: true }}
         trackUserLocation={true}
         auto
       />
