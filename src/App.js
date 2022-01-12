@@ -20,14 +20,14 @@ function App() {
         fixed="bottom"
       >
         <Nav>
-          <Nav.Link>Monitor</Nav.Link>
-          <Nav.Link>Directions</Nav.Link>
+          <Nav.Link onClick={handleShow}>Monitor</Nav.Link>
+          <Nav.Link onClick={handleShow}>Directions</Nav.Link>
           <Nav.Link onClick={handleShow}>Help</Nav.Link>
         </Nav>
       </Navbar>
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header>Help</Modal.Header>
-        <Modal.Body>text</Modal.Body>
+        <Modal.Header>Title</Modal.Header>
+        <Modal.Body>Text for Monitor/Directions/Help</Modal.Body>
         <Modal.Footer>
           <Button onClick={handleClose}>Close</Button>
         </Modal.Footer>
