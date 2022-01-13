@@ -121,6 +121,7 @@ To get a local copy up and running follow these steps.
    ```js
    REACT_APP_MAPBOX_ACCESS_TOKEN = "your-token-here"
    ```
+<<<<<<< HEAD
 4. Enter the address for your choice of map style either in an env.local file or in the Map.js.
 
 Remember to run `npm run start` after saving your env file, when previewing your work.
@@ -162,6 +163,7 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
+
 
 1. Fork the Project
 1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
