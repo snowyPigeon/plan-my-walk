@@ -121,7 +121,10 @@ To get a local copy up and running follow these steps.
    ```js
    REACT_APP_MAPBOX_ACCESS_TOKEN = "your-token-here"
    ```
-   Remember to run `npm run start` after saving your env file, when previewing your work.
+<<<<<<< HEAD
+4. Enter the address for your choice of map style either in an env.local file or in the Map.js.
+
+Remember to run `npm run start` after saving your env file, when previewing your work.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -131,7 +134,7 @@ To get a local copy up and running follow these steps.
 
 To run a development version of this project, you will need to: 
 1. Run the plan-my-walk server by navigating to that directory on your machine's CLI in a new window/tab. Checkout the appropriate branch and run `npm run`. 
-2. Run the *compile:sass* script by navigating to the ggs-frontend directory on your machine's CLI in a new window/tab. Checkout the appropriate branch and run `compile:sass`. This will allow live updates to the style sheet based on instructions written in the src/scss directory.
+2. Run the *compile:sass* script by navigating to the plan-my-walk directory on your machine's CLI in a new window/tab. Checkout the appropriate branch and run `compile:sass`. This will allow live updates to the style sheet based on instructions written in the src/scss directory.
 
 
 <!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
@@ -160,6 +163,7 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
+
 
 1. Fork the Project
 1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
