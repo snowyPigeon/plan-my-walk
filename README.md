@@ -121,7 +121,6 @@ To get a local copy up and running follow these steps.
    ```js
    REACT_APP_MAPBOX_ACCESS_TOKEN = "your-token-here"
    ```
-<<<<<<< HEAD
 4. Enter the address for your choice of map style either in an env.local file or in the Map.js.
 
 Remember to run `npm run start` after saving your env file, when previewing your work.
